@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'omnes_att_regular';
+    src: url('../fonts/omnesatt-regular-webfont.eot');
+    src: url('../fonts/omnesatt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnesatt-regular-webfont.woff') format('woff'),
+         url('../fonts/omnesatt-regular-webfont.ttf') format('truetype'),
+         url('../fonts/omnesatt-regular-webfont.svg#omnes_att_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'omnes_attlight';
+    src: url('../fonts/omnesatt-light-webfont.eot');
+    src: url('../fonts/omnesatt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnesatt-light-webfont.woff') format('woff'),
+         url('../fonts/omnesatt-light-webfont.ttf') format('truetype'),
+         url('../fonts/omnesatt-light-webfont.svg#omnes_attlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'omnes_attmedium';
+    src: url('../fonts/omnesatt-medium-webfont.eot');
+    src: url('../fonts/omnesatt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnesatt-medium-webfont.woff') format('woff'),
+         url('../fonts/omnesatt-medium-webfont.ttf') format('truetype'),
+         url('../fonts/omnesatt-medium-webfont.svg#omnes_attmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'omnes_attbold';
+    src: url('../fonts/omnesatt-bold-webfont.eot');
+    src: url('../fonts/omnesatt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnesatt-bold-webfont.woff2') format('woff2'),
+         url('../fonts/omnesatt-bold-webfont.woff') format('woff'),
+         url('../fonts/omnesatt-bold-webfont.ttf') format('truetype'),
+         url('../fonts/omnesatt-bold-webfont.svg#omnes_attbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background: #fafafa;
+  font-family: 'omnes_att_regular', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'omnes_att_regular', Arial, sans-serif;
+}
+
+a {
+  color: #ef6f00;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #ef6f00;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.font-regular {
+  font-family: 'omnes_att_regular', Arial, sans-serif;
+}
+
+.font-bold {
+  font-family: 'omnes_attbold', Arial, sans-serif;
+}
+
+.navbar {
+  border-radius: 0;
+  margin: 0;
+}
+
+.navbar-inverse {
+  background: rgba(0,0,0,0.7);
+  border: none;
+}
+
+.navbar-fixed-top {
+  position: absolute;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  font-family: 'omnes_attbold', Arial, sans-serif;
+  background: transparent;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.weather-icon {
+  font-size: 24px;
+}
+
+.container.white {
+  background: #fff;
+  box-shadow: 0 20px 20px rgba(255,255,255,.5);
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.row.hero {
+  margin-left: -25px;
+  margin-right: -25px;
+  color: #fff;
+}
+
+.row.hero h1, 
+.row.hero h2 {
+    font-family: 'omnes_attlight', Arial, sans-serif;
+}
+
+.row.hero a {
+  color: #fff;
+}
+
+.hero-1 {
+  background: url(../images/hero-iheartradio.jpg) no-repeat center 10% scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+}
+
+.hero-2 {
+  background: url(../images/hero-glympse.jpg) no-repeat center 10% scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+}
+
+.hero-3 {
+  background: url(../images/hero-accuweather2.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+}
+
+.hero .headline {
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 100px 25px 25px;
+  z-index: 2;
+}
+
+.hero .headline img {
+  display: block;
+  width: 46px;
+  height: auto;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.blog .post {
+  margin-bottom: 40px;
+}
+
+.blog .post img {
+  border-radius: 0 6px 6px 6px;
+}
+
+.blog .post .category-tag {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  z-index: 2;
+  background: black;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.blog .post .category-tag.business {
+  background: #e23232;
+}
+.blog .post .category-tag.lifestyle {
+  background: #4ca90c;
+}
+.blog .post .category-tag.entertainment {
+  background: #0c2577;
+}
+
+.blog .post img.app-logo {
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
+}
+
+.blog .post h4 {
+  margin-top: 0;
+}
+
+.blog .post.spotlight h4 {
+  font-size: 24px;
+}
+
+.blog .post a {
+  color: #333;
+}
+
+.blog .post p {
+  margin-bottom: 0;
+}
+
+.blog .post p.info {
+  font-family: 'omnes_attbold', Arial, sans-serif;
+}
+
+.blog .post p.info a {
+  text-transform: uppercase;
+}
+
+.blog .post a.comments {
+  margin-left: 10px;
+  color: #ef6f00;
+}
+
+img.quickplay-logo {
+  width: 150px;
+  height: auto;
+  margin-left: 5px;
+}
+
+a.quickplay-app-link {
+  color: #333;
+}
+
+a.quickplay-app-link:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .container.white {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+  }
+  .row.hero h2 {
+    font-size: 24px;
+  }
+  .hero .headline {
+    padding-right: 25px;
+  }
+  .blog .post img.app-logo {
+    width: 28px;
+    height: auto;
+  }
+}
