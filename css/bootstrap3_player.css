@@ -1,0 +1,93 @@
+.playa input[type="range"] {  
+
+  border-radius: 0.5em;
+  opacity: 0.5;
+  height: 1em;
+  top: 2px;
+  position: relative;
+}
+
+.playa  .thumbnail  {
+    width:60%;
+padding: 0;
+margin: 0;
+background-color: #fff;
+border: 0;
+float: left;
+}
+
+/* sliders and buttons need a uniform height */
+.playa .btn-group .btn {
+    display:inline-block;
+    float:none;
+    height: 2.2em;
+}
+
+.hk-player ul {	
+	list-style: none;
+	-webkit-padding-start: 0px;
+}
+.hk-player ul li {
+	font-size: 18px;
+	border-bottom: 1px solid #dadada;
+	height: 35px;
+	padding-top: 5px;
+}
+
+.hk-player .player-controls {
+text-align: center;
+	display: inline-table;
+	height: 100px;
+}
+.hk-player .scrub {
+text-align: center;
+font-size: 28px;
+	margin-bottom: 20px;
+}
+
+/*  contains the attribution link */
+.playa .row:nth-child(4) { 
+  overflow: hidden;
+}
+
+.playa .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+border-top: 0;
+}
+
+/* Acknowledgements:
+To Glyphicons (http://glyphicons.com/) for the Halflings glyphs font */
+
+/* .spin is used to rotate glyphicon glyphicon-refresh */
+.spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
